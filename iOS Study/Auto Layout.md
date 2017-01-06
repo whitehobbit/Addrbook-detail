@@ -1,8 +1,8 @@
----
 layout: post
 title: Auto Layout
 tags: ios, swift, whitehobbit, auto layout
----
+
+
 
 > 이 문서는 Xcode의 storyboard를 이용하여 Auto Layout을 사용하는 방법을 다룬다.
 >
@@ -12,11 +12,11 @@ tags: ios, swift, whitehobbit, auto layout
 
 **index**
 
-[TOC]
+{:toc}
 
-## 1. Auto Layout이란?
+### 1. Auto Layout이란?
 
-### 1.1 개념
+#### 1.1 개념
 
 아이폰의 크기가 다양해지고, 아이패드가 등장하며 앱 화면의 디자인의 파편화가 심화되었다. 이를 극복하기 위해 등장한 것이 Auto Layout이다. 
 
@@ -83,9 +83,9 @@ Identifier: 해당 Constraint의 식별자
 Installed: 이 속성을 체크해야지 해당 Constraint가 적용됨
 
 
-## 2. Auto Layout 실전 활용
+### 2. Auto Layout 실전 활용
 
-### 2.1 Addrbook의 주소록 : 세부화면 만들기
+#### 2.1 Addrbook의 주소록 : 세부화면 만들기
 
 **프로젝트 생성**
 
@@ -124,7 +124,7 @@ Constraint를 적용시키는 방법은 크게 2가지가 존재한다.
 
 ​	`Height `를 60으로 지정하기 위해, 스스로에게 이어주면 아래와 같이 나타난다.
 
-![Constraint 02](https://photos-4.dropbox.com/t/2/AAAMomC-3PlFwa8P-5yVUcoKeJZWxRe2efQIFC7EgQcdbQ/12/141278691/png/32x32/1/_/1/2/auto%20layout%2004.png/EICQmmwY9bUCIAcoBw/fpArI2WtWIAUMUtDtMDJTPy-ZUw5WguZLqad9P5cTdc?size=1280x960&size_mode=3)
+![Constraint 02](https://github.com/whitehobbit/Addrbook-detail/blob/master/iOS%20Study/auto%20layout%2004.png?raw=true)
 
 ​	`Height`를 선택하고 60을 지정해준다.
 
@@ -132,7 +132,7 @@ Constraint를 적용시키는 방법은 크게 2가지가 존재한다.
 
 ​	`Add New Constraints` 버튼을 클릭하면 아래와 같이 나타난다.
 
-![Constraint 03](https://github.com/whitehobbit/Addrbook-detail/blob/master/iOS%20Study/auto%20layout%2004.png?raw=true)
+![Constraint 03](https://github.com/whitehobbit/Addrbook-detail/blob/master/iOS%20Study/auto%20layout%2005.png?raw=true)
 
 ​	여기서 사용하고자 하는 Constraint를 선택 후 수치를 입력한 후, `Add Constraints`를 클릭.
 
@@ -144,7 +144,7 @@ Constraint를 적용시키는 방법은 크게 2가지가 존재한다.
 
 타이틀 Label을 주소록 : 세부화면으로 변경하고 가운데 정렬을 하면 아래와 같이 나타난다.
 
-![타이틀 label 생성](https://github.com/whitehobbit/Addrbook-detail/blob/master/iOS%20Study/auto%20layout%2005.png?raw=true)
+![타이틀 label 생성](https://github.com/whitehobbit/Addrbook-detail/blob/master/iOS%20Study/auto%20layout%2006.png?raw=true)
 
 **콘텐츠 뷰 생성**
 
@@ -185,4 +185,3 @@ Constraint를 적용시키는 방법은 크게 2가지가 존재한다.
 **[소스 코드][1]**
 
 [1]:https://github.com/whitehobbit/Addrbook-detail
-
