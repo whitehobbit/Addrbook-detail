@@ -6,7 +6,7 @@ tags: ios, swift, whitehobbit, auto layout
 
 > 이 문서는 Xcode의 storyboard를 이용하여 Auto Layout을 사용하는 방법을 다룬다.
 >
-> 작성자: *임하빈, 마지막 수정: 2017.01.06
+> 작성자: *임하빈, 마지막 수정: 2017.01.06*
 
 # Auto Layout
 
@@ -56,7 +56,7 @@ Constraint(제약)은 앱의 디자인이 각각의 다른 화면 크기로 표�
 
 
 
-**Constraint를 적용시키는 2가지 방법 **
+**Constraint를 적용시키는 2가지 방법**
 
 (1) Constraint를 적용하고자 하는 attribute를 선택하고 `Ctrl`키를 누른 상태에서 해당 attribute와 위치를 비교할 attribute와 이어주기
 
@@ -64,7 +64,7 @@ Constraint(제약)은 앱의 디자인이 각각의 다른 화면 크기로 표�
 
 
 
-**Constraint의 요소 **
+**Constraint의 요소**
 
 First Item: Constraint를 적용시키고자 하는 attribute
 
@@ -83,11 +83,6 @@ Identifier: 해당 Constraint의 식별자
 Installed: 이 속성을 체크해야지 해당 Constraint가 적용됨
 
 
-
-**참고 사이트**
-
-
-
 ## 2. Auto Layout 실전 활용
 
 ### 2.1 Addrbook의 주소록 : 세부화면 만들기
@@ -100,7 +95,7 @@ Xcode를 실행해 iOS 탭의 `Single View Application`을 선택하고 프로�
 
 ![main.storyboard](https://github.com/whitehobbit/Addrbook-detail/blob/master/iOS%20Study/auto%20layout%2001.png?raw=true)
 
-**타이틀뷰 생성하기**
+**타이틀 뷰 생성하기**
 
 위 그림에서 보이는 뷰컨트롤러에 뷰의 타이틀이 들어갈 View를 하나 추가한다.
 
