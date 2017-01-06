@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "638AC1F9A1AC0AC0980453EE57CC9C9147EDCBC7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "638AC1F9A1AC0AC0980453EE57CC9C9147EDCBC7" : 9223372036854775807,
+    "A460C82384F9FD7F1CF24F434E9A9C807134C1EF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BE756468-2107-4223-9421-BC11718D8BF3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "638AC1F9A1AC0AC0980453EE57CC9C9147EDCBC7" : "Addrbook:detail\/",
+    "A460C82384F9FD7F1CF24F434E9A9C807134C1EF" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Addrbook:detail",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Addrbook:detail.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/whitehobbit\/Addrbook-detail.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "638AC1F9A1AC0AC0980453EE57CC9C9147EDCBC7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/whitehobbit\/FhirConsoleApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A460C82384F9FD7F1CF24F434E9A9C807134C1EF"
+    }
+  ]
+}
