@@ -12,20 +12,15 @@ tags: ios, swift, whitehobbit, auto layout
 
 **index**
 
-1. [ Auto Layout이란?](#1.-Auto-Layout이란?)
-
-   ​1.1  [개념](#-1.1-개념)
-
-
-2. [Auto Layout 실전 활용](#2.-Auto-Layout-실전-활용) 
-
-   1.2  [Addrbook의 주소록 : 세부화면 만들기](#1.2-Addrbook의-주소록-:-세부화면-만들기)
+*TOC
 
 {:toc}
 
 ### 1. Auto Layout이란?
 
 #### 1.1 개념
+
+---
 
 아이폰의 크기가 다양해지고, 아이패드가 등장하며 앱 화면의 디자인의 파편화가 심화되었다. 이를 극복하기 위해 등장한 것이 Auto Layout이다. 
 
@@ -37,31 +32,31 @@ Constraint(제약)은 앱의 디자인이 각각의 다른 화면 크기로 표�
 
 배치에는 Align(정렬)과 Pin(고정)의 2가지 방식이 존재한다. Align은 가운데 정렬이나 다른 요소와 모아서 정렬을 하고자 할 경우 사용하며, 화면 상하 좌우 가장자리에 고정 표시할 경우와 크기 고정 시에는 Pin을 사용한다.
 
-기본적인 Constraint(제약)에는 
+기본적인 Constraint(제약)은 아래와 같다.
 
-​	Leading: elements 좌측
-
-​	Trailing: elements 우측
-
-​	Top: elements 상단
-
-​	Bottom: elements 하단
-
-​	Width: elements 너비
-
-​	Height: elements 높이
-
-​	centerX: elements 가로 중심
-
-​	centerY: elements 세로 중심
-
-​	Baseline: 문자 baseline
-
-​	Horizontal: 수평
-
-​	Vertical: 수직
-
-​	Aspect Ratio: elements 가로세로 비율
+> Leading: elements 좌측
+>
+> Trailing: elements 우측
+>
+> Top: elements 상단
+>
+> Bottom: elements 하단
+>
+> Width: elements 너비
+>
+> Height: elements 높이
+>
+> centerX: elements 가로 중심
+>
+> centerY: elements 세로 중심
+>
+> Baseline: 문자 baseline
+>
+> Horizontal: 수평
+>
+> Vertical: 수직
+>
+> Aspect Ratio: elements 가로세로 비율
 
 
 
@@ -75,21 +70,22 @@ Constraint(제약)은 앱의 디자인이 각각의 다른 화면 크기로 표�
 
 **Constraint의 요소**
 
-First Item: Constraint를 적용시키고자 하는 attribute
+> First Item: Constraint를 적용시키고자 하는 attribute
+>
+> Relation: Less Than or Equal, Equal, Greater Than or Equal, 최소 값, 최대 값, 특정 값 지정
+>
+> Second Item: Constraint 비교 대상
+>
+> Constant: value를 의미
+>
+> priority: 우선순위를 의미 default값은 1000, 숫자가 작을 수록 우선순위가 높음
+>
+> Mutiplier: First Item의 사이즈를 Second Item와 같게 했을 경우, Second Item에 대한 배율
+>
+> Identifier: 해당 Constraint의 식별자
+>
+> Installed: 이 속성을 체크해야지 해당 Constraint가 적용됨
 
-Relation: Less Than or Equal, Equal, Greater Than or Equal, 최소 값, 최대 값, 특정 값 지정
-
-Second Item: Constraint 비교 대상
-
-Constant: value를 의미
-
-priority: 우선순위를 의미 default값은 1000, 숫자가 작을 수록 우선순위가 높음
-
-Mutiplier: First Item의 사이즈를 Second Item와 같게 했을 경우, Second Item에 대한 배율
-
-Identifier: 해당 Constraint의 식별자
-
-Installed: 이 속성을 체크해야지 해당 Constraint가 적용됨
 
 
 ### 2. Auto Layout 실전 활용
