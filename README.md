@@ -12,19 +12,20 @@ tags: ios, swift, whitehobbit, auto layout
 
 **index**
 
-[1. Auto Layout이란?](#m1)
+1. [ Auto Layout이란?](#1.-Auto-Layout이란?)
 
-​	[1.1 개념](#1.1)
+   ​1.1  [개념](#-1.1-개념)
 
-[2. Auto Layout 실전 활용](#2)
 
-​	[1.2 Addrbook의 주소록 : 세부화면 만들기](#2.1)
+2. [Auto Layout 실전 활용](#2.-Auto-Layout-실전-활용) 
+
+   1.2  [Addrbook의 주소록 : 세부화면 만들기](#1.2-Addrbook의-주소록-:-세부화면-만들기)
 
 {:toc}
 
-### 1. Auto Layout이란?<a name="1" />
+### 1. Auto Layout이란?
 
-#### 1.1 개념<a name="1.1" />
+#### 1.1 개념
 
 아이폰의 크기가 다양해지고, 아이패드가 등장하며 앱 화면의 디자인의 파편화가 심화되었다. 이를 극복하기 위해 등장한 것이 Auto Layout이다. 
 
@@ -91,9 +92,9 @@ Identifier: 해당 Constraint의 식별자
 Installed: 이 속성을 체크해야지 해당 Constraint가 적용됨
 
 
-### 2. Auto Layout 실전 활용<a name="2"/>
+### 2. Auto Layout 실전 활용
 
-#### 2.1 Addrbook의 주소록 : 세부화면 만들기<a name="2.1"/>
+#### 2.1 Addrbook의 주소록 : 세부화면 만들기
 
 **프로젝트 생성**
 
