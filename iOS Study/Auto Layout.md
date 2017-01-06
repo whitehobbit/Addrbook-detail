@@ -6,7 +6,7 @@ tags: ios, swift, whitehobbit, auto layout
 
 > 이 문서는 Xcode의 storyboard를 이용하여 Auto Layout을 사용하는 방법을 다룬다.
 >
-> 작성자: *임하빈, 마지막 수정: 2017.01.02*
+> 작성자: *임하빈, 마지막 수정: 2017.01.06
 
 # Auto Layout
 
@@ -98,13 +98,13 @@ Xcode를 실행해 iOS 탭의 `Single View Application`을 선택하고 프로�
 
 생성된 프로젝트의 `main.storyboard` 파일을 선택하면 아래와 같은 화면이 보인다.
 
-![main.storyboard](https://photos-4.dropbox.com/t/2/AACkMnDf4D8aEdC6_mMpTRru-q4l5MD0QY375sXol2WzNA/12/141278691/png/32x32/3/1483700400/0/2/auto%20laout%2001.png/EICQmmwY6bUCIAcoBw/UXEomczwkSZO8-PQihCuh4drY9ln0hcm44zM_K3tc30?size=1280x960)
+![main.storyboard](https://github.com/whitehobbit/Addrbook-detail/blob/master/iOS%20Study/auto%20layout%2001.png?raw=true)
 
 **타이틀뷰 생성하기**
 
 위 그림에서 보이는 뷰컨트롤러에 뷰의 타이틀이 들어갈 View를 하나 추가한다.
 
-![뷰 추가](https://photos-1.dropbox.com/t/2/AADUbG5omsUFtlwn6oQ5ndTbj3V43AbcA16wF9milr0VHg/12/141278691/png/32x32/1/_/1/2/auto%20layout%2002.png/EICQmmwY9bUCIAcoBw/pRpWfRBwlPbaTesOiD2Ti0WrfWRqKJS2tnbhk_JDqgY?size=1280x960&size_mode=3)
+![뷰 추가](https://github.com/whitehobbit/Addrbook-detail/blob/master/iOS%20Study/auto%20layout%2002.png?raw=true)
 
 이 뷰에 Constraint를 걸어 auto layout을 적용한다.
 
@@ -121,7 +121,7 @@ Constraint를 적용시키는 방법은 크게 2가지가 존재한다.
 
 ​	attribute를 선택하고 `Ctrl`키를 누른 상태에서 부모 attribute로 끌어오면 아래와 같이 나타난다.
 
-![Constraint 01](https://photos-6.dropbox.com/t/2/AAC4vKPGerExxdBzPlIGp5RW78TZvUlwm05svMOm1SCi8A/12/141278691/png/32x32/1/_/1/2/auto%20layout%2003.png/EICQmmwY7bUCIAcoBw/RJveVGxAsWy4sSgI6ClcgTeHLEfF0F-ORbzpz0V9BZk?size_mode=3&dl=0&size=1280x960)
+![Constraint 01](https://github.com/whitehobbit/Addrbook-detail/blob/master/iOS%20Study/auto%20layout%2003.png?raw=true)
 
 ​	적용하고자 하는 Constraint를 선택하고, 수치를 입력한다. 
 
@@ -137,7 +137,7 @@ Constraint를 적용시키는 방법은 크게 2가지가 존재한다.
 
 ​	`Add New Constraints` 버튼을 클릭하면 아래와 같이 나타난다.
 
-![Constraint 03](https://photos-5.dropbox.com/t/2/AABO1IsdWOBcODKmHdTuMuF7ssihkrU-5d-EGw_T_A0wsw/12/141278691/png/32x32/1/_/1/2/auto%20layout%2005.png/EICQmmwY9bUCIAcoBw/jJp3QDvSijKKmTwXXP6ryqxyD0l9Zb9Prj56jzR3v_8?size=1280x960&size_mode=3)
+![Constraint 03](https://github.com/whitehobbit/Addrbook-detail/blob/master/iOS%20Study/auto%20layout%2004.png?raw=true)
 
 ​	여기서 사용하고자 하는 Constraint를 선택 후 수치를 입력한 후, `Add Constraints`를 클릭.
 
@@ -149,7 +149,7 @@ Constraint를 적용시키는 방법은 크게 2가지가 존재한다.
 
 타이틀 Label을 주소록 : 세부화면으로 변경하고 가운데 정렬을 하면 아래와 같이 나타난다.
 
-![타이틀 label 생성](https://photos-6.dropbox.com/t/2/AADuD0tsw4pJYuZEPcBzDNZdtdB_yvWjJJBw1l1irKjKiA/12/141278691/png/32x32/1/_/1/2/auto%20layout%2006.png/EICQmmwY9rUCIAcoBw/jOAW99H55h5JllS7-8H6-BuugwY_2ECA0_TCCVz4msA?size=1280x960&size_mode=3)
+![타이틀 label 생성](https://github.com/whitehobbit/Addrbook-detail/blob/master/iOS%20Study/auto%20layout%2005.png?raw=true)
 
 **콘텐츠 뷰 생성**
 
@@ -161,7 +161,7 @@ Constraint를 적용시키는 방법은 크게 2가지가 존재한다.
 
 콘텐츠 뷰를 타이틀 뷰와 이어 `Vertical Spacing`을 `20`으로 지정하면 아래와 같이 나타난다.
 
-![콘텐츠 뷰 생성](https://photos-6.dropbox.com/t/2/AACc-ZO1cb34ok3ntzV9jOBhiP_cCbmqP_VsYlVSCaZVyw/12/141278691/png/32x32/1/_/1/2/auto%20layout%2007.png/EICQmmwY97UCIAcoBw/h_5z5fznKLgFVdhACMcmBZwiFzEJE2goRYBcIXBmDzU?size=1280x960&size_mode=3)
+![콘텐츠 뷰 생성](https://github.com/whitehobbit/Addrbook-detail/blob/master/iOS%20Study/auto%20layout%2007.png?raw=true)
 
 **콘텐츠 생성**
 
@@ -185,7 +185,7 @@ Constraint를 적용시키는 방법은 크게 2가지가 존재한다.
 
 `Constraints`를 전부 지정하면 아래와 같이 나온다.
 
-![콘텐츠](https://photos-6.dropbox.com/t/2/AAAlBcS7Sp_Yz-rACcYSLdWBFne8xLIIuLPF_QgRVa7gCQ/12/141278691/png/32x32/1/_/1/2/auto%20layout%2008.png/EICQmmwY-rUCIAcoBw/ZgaBvYKm98cryEM7163YxMko6CT5k2ApRGgoVqD-LTU?size=2048x1536&size_mode=3)
+![콘텐츠](https://github.com/whitehobbit/Addrbook-detail/blob/master/iOS%20Study/auto%20layout%2008.png?raw=true)
 
 **[소스 코드][1]**
 
